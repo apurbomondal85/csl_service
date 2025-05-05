@@ -215,6 +215,10 @@ header .navbar-toggler:focus {
     font-size: 20px;
 }
 
+.about-img img{
+    width: 100%;
+}
+
 
 
 .mission-title {
@@ -229,7 +233,7 @@ header .navbar-toggler:focus {
 /* =========  Why Section Start ========== */
 
 .why-us p {
-    font-size: 20px;
+    font-size: 28px;
 }
 
 .mission-title {
@@ -237,6 +241,10 @@ header .navbar-toggler:focus {
     font-size: 20px;
 }
 
+.why-img img{
+    width: 100%;
+    height: 400px;
+}
 
 /* =========  Why Us Section End ========== */
 
@@ -244,21 +252,14 @@ header .navbar-toggler:focus {
 /* =========  skill Section Start ========== */
 
 .skill-card {
-    width: 400px;
-    height: 400px;
+    width: 380px;
+    height: 380px;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
-}
-
-.bg-gradient-1 {
-    background: linear-gradient(135deg, #c6f7d9 0%, #a0eaff 100%);
-}
-
-.bg-gradient-2 {
-    background: linear-gradient(135deg, #a0eaff 0%, #c6f7d9 100%);
+    background: linear-gradient(to left, #94aee3, #abeacd);
 }
 
 .skill-img {
