@@ -907,7 +907,7 @@ header .navbar-toggler:focus {
 
 
 
-.porduct-inner-extra{
+.porduct-inner-extra {
     margin-bottom: 10px;
 }
 
@@ -924,7 +924,7 @@ header .navbar-toggler:focus {
 }
 
 
-.product-inner-box-extra{
+.product-inner-box-extra {
     margin-top: 86px;
 }
 
@@ -949,7 +949,7 @@ header .navbar-toggler:focus {
 }
 
 
-.page-title{
+.page-title {
     font-size: 3rem;
     font-weight: 600;
 }
@@ -960,7 +960,7 @@ header .navbar-toggler:focus {
 
 
 
-/* ========= Pages Products  Start ========== */
+/* ========= Surveillance Page Start ========== */
 
 .page-image {
     width: 100%;
@@ -976,6 +976,8 @@ header .navbar-toggler:focus {
 }
 
 /* ========= Pages Products End ========== */
+
+
 .pabx_box{
     position: relative;
     height: 400px;
@@ -1022,6 +1024,44 @@ header .navbar-toggler:focus {
     color: var(--white-color);
     font-size: 500;
 }
+
+/* ========= Surveillance Page End ========== */
+
+
+/* ========= Attendance System Page Start ========== */
+
+#attendance_system .product-card {
+    background-color: #F5F5F5;
+    padding: 1.8rem 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#attendance_system .product-title {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 0.75rem;
+}
+
+#attendance_system .btn-learn {
+    background-color: #0066cc;
+    border: none;
+    font-size: 0.875rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 2px;
+}
+
+#attendance_system .btn-learn:hover,
+#attendance_system .btn-learn:focus {
+    background-color: #005bb5;
+}
+
+#attendance_system .product-img {
+    width: 90px;
+    height: auto;
+}
+
+/* ========= Attendance System Page End ========== */
 
 
 
