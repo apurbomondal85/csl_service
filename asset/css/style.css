@@ -88,6 +88,7 @@ Style Section
 /* ========= Header Section Start ========== */
 header {
     background: var(--white-color);
+    box-shadow: 3px 0px 3px rgba(0, 0, 0, 0.5);
 }
 
 header .header-top {
@@ -972,9 +973,55 @@ header .navbar-toggler:focus {
     font-weight: 700;
     color: #2c2c2c;
     margin-top: 6px;
-  }
+}
 
 /* ========= Pages Products End ========== */
+.pabx_box{
+    position: relative;
+    height: 400px;
+    padding: 0px 32px;
+}
+
+.pabx_box_shadow{
+    height: 380px;
+    width: 100%;
+    clip-path: polygon(51% 0, 78% 14%, 100% 6%, 100% 100%, 0 100%, 0 6%, 24% 15%);
+    background-color: var(--secondary-color);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.pabx_box .pabx_img img{
+    height: 300px;
+    border-radius: 120px 0px 120px 0px;
+}
+
+.pabx_box h3{
+    font-size: 32px;
+    text-align: center;
+    color: var(--white-color);
+    margin-top: 20px;
+}
+
+.pabx_product2{
+    padding: 36px 150px;
+}
+
+.pabx_product2 .product2_box{
+    height: 380px;
+    width: 380px;
+    background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
+    padding: 32px;
+}
+
+.pabx_product2 .product2_box h4{
+    font-size: 24px;
+    text-align: center;
+    color: var(--white-color);
+    font-size: 500;
+}
 
 
 
