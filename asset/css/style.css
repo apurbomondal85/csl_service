@@ -974,13 +974,13 @@ header .navbar-toggler:focus {
 /* ========= Pages Products End ========== */
 
 
-.pabx_box{
+.pabx_box {
     position: relative;
     height: 400px;
     padding: 0px 32px;
 }
 
-.pabx_box_shadow{
+.pabx_box_shadow {
     height: 380px;
     width: 100%;
     clip-path: polygon(51% 0, 78% 14%, 100% 6%, 100% 100%, 0 100%, 0 6%, 24% 15%);
@@ -991,30 +991,30 @@ header .navbar-toggler:focus {
     z-index: -1;
 }
 
-.pabx_box .pabx_img img{
+.pabx_box .pabx_img img {
     height: 300px;
     border-radius: 120px 0px 120px 0px;
 }
 
-.pabx_box h3{
+.pabx_box h3 {
     font-size: 32px;
     text-align: center;
     color: var(--white-color);
     margin-top: 20px;
 }
 
-.pabx_product2{
+.pabx_product2 {
     padding: 36px 150px;
 }
 
-.pabx_product2 .product2_box{
+.pabx_product2 .product2_box {
     height: 380px;
     width: 380px;
     background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
     padding: 32px;
 }
 
-.pabx_product2 .product2_box h4{
+.pabx_product2 .product2_box h4 {
     font-size: 24px;
     text-align: center;
     color: var(--white-color);
@@ -1061,17 +1061,17 @@ header .navbar-toggler:focus {
 
 /* ========= Addressing System Page Start ========== */
 
-.addressing-product-box{
+.addressing-product-box {
     width: 235px !important;
     height: 95%;
 }
 
-.addressing-product-box img{
+.addressing-product-box img {
     width: 100% !important;
     height: 100%;
 }
 
-.addressing-product-text{
+.addressing-product-text {
     font-size: 1.1rem;
     font-weight: 600;
 }
@@ -1086,29 +1086,166 @@ header .navbar-toggler:focus {
     font-weight: 700;
     font-size: 14px;
     color: #222222;
-  }
-  .series-text-bold {
+}
+
+.series-text-bold {
     font-weight: 700;
     font-size: 14px;
     color: #222222;
-  }
-  .series-text-bold-grey {
+}
+
+.series-text-bold-grey {
     font-weight: 700;
     font-size: 14px;
     color: #555555;
-  }
-  .img-container {
+}
+
+.img-container {
     max-width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  .series-item {
+}
+
+.series-item {
     padding: 1rem 0;
-  }
+}
 
 /* ========= Smart Wireless Page End ========== */
+
+
+/* ========= Switching Routing Page Start ========== */
+
+#switching_routing img {
+    width: 85%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#switching_routing .title-blue a {
+    color: #2c5aa0 !important;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+
+#switching_routing .caption-text a {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5px;
+    color: var(--dark-color);
+}
+
+.caption-container {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+
+/* ========= Switching Routing Page End ========== */
+
+
+
+/* ========= Contact Section End ========== */
+
+.contact h6 {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.contact .bar::after {
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.contact-section {
+    background-image: url('../images/contact.avif');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 24% 6%, 50% 0, 75% 7%, 100% 0, 100% 14%, 100% 99%, 73% 93%, 50% 100%, 21% 95%, 0 100%, 0% 85%);
+    background-attachment: fixed;
+}
+
+.contact-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.contact-main .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.contact-main .contact-info .form-text-subtitle {
+    font-weight: 500;
+    padding: 5px 0px;
+    color: var(--white-color);
+    font-size: 18px;
+    text-align: start;
+}
+
+.contact-main .contact-info .form-text-title {
+    font-weight: 600;
+    color: var(--light-color);
+    font-size: 40px;
+    padding-right: 40px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+}
+
+.form-section {
+    background: rgba(0, 23, 31, 0.8);
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.form-section .form-title {
+    font-size: 25px;
+    color: var(--primary-color);
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-section .form-title .bar::after {
+    margin-top: 8px;
+}
+
+.form-section input,
+.textarea {
+    background-color: transparent;
+    padding: 15px;
+    color: var(--white-color);
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid var(--light-color);
+}
+
+.form-section input:focus,
+.form-section textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+.textarea {
+    height: 100px;
+}
+
+.form-section input::placeholder,
+.form-section textarea::placeholder {
+    color: var(--white-color);
+}
+
+/* ========= Contact Section End ========== */
 
 
 footer {
