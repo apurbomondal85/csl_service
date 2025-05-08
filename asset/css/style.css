@@ -826,22 +826,18 @@ header .navbar-toggler:focus {
     height: 350px;
 }
 
-
-
-
 .product-label-container {
     background-color: #8a9db7;
-    border: 1.5px solid #F2B084;
+    border: 1px solid #F2B084;
     border-radius: 3px;
-    padding: 3px 8px;
+    padding: 4px 20px;
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: white;
     text-align: center;
     margin-top: 8px;
     user-select: none;
-    width: 137px;
-    box-shadow: 0px 5px 0px 0.5px #9f9999;
+    box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -907,7 +903,7 @@ header .navbar-toggler:focus {
 
 
 
-.porduct-inner-extra{
+.porduct-inner-extra {
     margin-bottom: 10px;
 }
 
@@ -924,7 +920,7 @@ header .navbar-toggler:focus {
 }
 
 
-.product-inner-box-extra{
+.product-inner-box-extra {
     margin-top: 86px;
 }
 
@@ -949,7 +945,7 @@ header .navbar-toggler:focus {
 }
 
 
-.page-title{
+.page-title {
     font-size: 3rem;
     font-weight: 600;
 }
@@ -960,7 +956,7 @@ header .navbar-toggler:focus {
 
 
 
-/* ========= Pages Products  Start ========== */
+/* ========= Surveillance Page Start ========== */
 
 .page-image {
     width: 100%;
@@ -976,6 +972,8 @@ header .navbar-toggler:focus {
 }
 
 /* ========= Pages Products End ========== */
+
+
 .pabx_box{
     position: relative;
     height: 400px;
@@ -1022,8 +1020,96 @@ header .navbar-toggler:focus {
     color: var(--white-color);
     font-size: 500;
 }
+/* ========= Surveillance Page End ========== */
 
-/* Footer */
+
+/* ========= Attendance System Page Start ========== */
+
+#attendance_system .product-card {
+    background-color: #F5F5F5;
+    padding: 1.8rem 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#attendance_system .product-title {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 0.75rem;
+}
+
+#attendance_system .btn-learn {
+    background-color: #0066cc;
+    border: none;
+    font-size: 0.875rem;
+    padding: 0.375rem 0.9rem;
+    border-radius: 2px;
+}
+
+#attendance_system .btn-learn:hover,
+#attendance_system .btn-learn:focus {
+    background-color: #005bb5;
+}
+
+#attendance_system .product-img {
+    width: 90px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* ========= Attendance System Page End ========== */
+
+/* ========= Addressing System Page Start ========== */
+
+.addressing-product-box{
+    width: 235px !important;
+    height: 95%;
+}
+
+.addressing-product-box img{
+    width: 100% !important;
+    height: 100%;
+}
+
+.addressing-product-text{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+/* ========= Addressing System Page End ========== */
+
+
+
+/* ========= Smart Wireless Page Start ========== */
+
+.series-text {
+    font-weight: 700;
+    font-size: 14px;
+    color: #222222;
+  }
+  .series-text-bold {
+    font-weight: 700;
+    font-size: 14px;
+    color: #222222;
+  }
+  .series-text-bold-grey {
+    font-weight: 700;
+    font-size: 14px;
+    color: #555555;
+  }
+  .img-container {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .series-item {
+    padding: 1rem 0;
+  }
+
+/* ========= Smart Wireless Page End ========== */
+
 
 footer {
     background: linear-gradient(90deg, #04426d 0%, var(--secondary-color) 100%);
