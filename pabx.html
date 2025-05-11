@@ -28,6 +28,70 @@
   <header>
     <div class="header-top">
       <div class="container">
+        <div class="d-flex align-items-center gap-5 justify-content-between d-block d-lg-none">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+            aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"></i></button>
+
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header border-bottom">
+              <h5 class="offcanvas-title fw-bold" id="offcanvasScrollingLabel"><a href="index.html"
+                  class="text-black">CSL SERVICE</a></h5>
+              <button type="button" class="btn-close " style="font-size: 12px !important;" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link fs-6" href="index.html" aria-expanded="false">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link fs-6" href="#">
+                    Company
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link fs-6" href="#">
+                    Products
+                  </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link fs-6" href="#">
+                    Solutions
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-6" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  Mirpur 10, Dhaka, Bangladesh
+                </li>
+                <li class="nav-item mt-2">
+                  <div class="d-flex align-items-center gap-2">
+                    <img src="asset/images/whatsapp.png" alt="">
+                    <p class="text-dark fs-6">+880 1893-115555</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <a class="navbar-brand logo d-flex align-items-center" href="index.html">
+            <img src="asset/images/logo.png" alt="car service logo">
+          </a>
+          <p class="d-none d-lg-block">Office Location</p>
+          <div class="d-flex align-items-center gap-2 d-none d-lg-block">
+            <img src="asset/images/whatsapp.png" alt="">
+            <p>+880 1893-115555</p>
+          </div>
+          <div>
+            <a href="">Login</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-none d-lg-block">
         <div class="top-content d-flex align-items-center justify-content-end">
           <div class="d-flex align-items-center gap-5">
             <p>Office Location</p>
@@ -42,7 +106,7 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg d-none d-lg-block">
       <div class="container">
         <a class="navbar-brand logo d-flex align-items-center" href="index.html">
           <img src="asset/images/logo.png" alt="car service logo">
@@ -104,13 +168,13 @@
                   <h3>Device</h3>
                 </div>
               </div>
-              <div class="col-lg-6 col-xxl-4">
+              <div class="col-lg-6 col-xxl-4 d-none d-lg-block">
                 <div class="pabx_img">
                   <img src="asset/images/pabx/img3.png" class="img-fluid" alt="">
                   <h3>Phone systems</h3>
                 </div>
               </div>
-              <div class="col-lg-6 col-xxl-4">
+              <div class="col-lg-6 col-xxl-4 d-none d-lg-block">
                 <div class="pabx_img">
                   <img src="asset/images/pabx/img2.png" class="img-fluid" alt="">
                   <h3>Application</h3>
@@ -119,7 +183,7 @@
             </div>
           </div>
         </div>
-        <div class="pabx_product2">
+        <!-- <div class="pabx_product2">
           <div class="d-flex justify-content-between align-items-center">
             <div class="product2_box">
               <div class="product2_img">
@@ -134,9 +198,10 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
+
   </main>
 
   <!-- ========= Footer Section Start ========= -->
