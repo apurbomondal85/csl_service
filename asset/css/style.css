@@ -1346,6 +1346,10 @@ Responsive Section
         padding: 15px;
     }
 
+    .hero .hero-img {
+        height: 500px;
+    }
+
     /* pabx section start */
 
     .pabx_box h3 {
@@ -1428,7 +1432,9 @@ Responsive Section
         font-size: 13px;
     }
 
-
+    .hero .hero-img {
+        height: 400px;
+    }
 
     /* header section end */
 
