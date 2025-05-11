@@ -1594,7 +1594,7 @@ Responsive Section
 
     .page-hero {
         position: relative;
-        height: 560px;
+        height: 300px;
         width: 100%;
         background-image: url(../images/page-banner.png);
         background-size: cover;
